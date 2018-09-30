@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://10.117.130.110:3306/mybatis_plus
+    username: root
+    password: 123456
+    hikari:
+      maxLifetime: 1765000
+      maximumPoolSize: 15
+
+logging:
+  level:
+    com.sxkl.project.mybatisplusdemo: debugcom.sxkl.project.mybatisplusdemo
